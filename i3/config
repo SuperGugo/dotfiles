@@ -30,9 +30,12 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
-exec wal -i Immagini/Wallpapers/tramonto.jpg
-exec sudo systemctl start docker & xrandr --output HDMI-0 --auto --left-of DP-0 & polybar --config=/home/supergugo/Documenti/polybar/config center
-exec picom & tint2
+exec_always wal -i Immagini/Wallpapers/tramonto.jpg
+exec_always systemctl start docker
+exec_always xrandr --output HDMI-0 --auto --left-of DP-0
+exec_always polybar --config=/home/supergugo/Documenti/polybar/config center
+exec_always picom
+exec_always tint2
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
