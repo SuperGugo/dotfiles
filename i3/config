@@ -9,8 +9,8 @@ exec --no-startup-id xss-lock --transfer-sleep-lock --i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec nm-applet
 
-exec_always systemctl start dhcpcd
-exec wal -i Immagini/Wallpapers/tramonto.jpg && xrandr --output HDMI-0 --auto --left-of DP-0 && systemctl start docker
+
+exec wal -i Immagini/Wallpapers/tramonto.jpg && xrandr --output DP-0 --auto --right-of HDMI-0 --mode 1920x1080 --rate 144
 exec_always polybar --config=/home/supergugo/Documenti/polybar/config center
 exec_always picom
 exec_always tint2
