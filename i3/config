@@ -1,4 +1,5 @@
 set $mod Mod4
+set $alt Mod1
 font pango:monospace 8
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
@@ -14,6 +15,11 @@ exec wal -i Immagini/Wallpapers/tramonto.jpg && xrandr --output DP-0 --auto --ri
 exec_always polybar --config=/home/supergugo/Documenti/polybar/config center
 exec_always picom
 exec_always tint2
+
+# Screenshots
+bindsym $mod+Shift+Print exec "terminator -x import ~/Immagini/screenshot.png"
+bindsym $mod+Print exec "import -window root ~/Immagini/screenshot.png"
+bindsym Print exec "zsh ~/screenshot.sh"
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
