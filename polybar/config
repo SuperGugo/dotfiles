@@ -24,9 +24,9 @@ module-margin-right = 1
 font-0 = mono:pixelsize=12;1
 width = 100%
 left = true
-modules-left = cpu memory temperature
+modules-left = cpu memory temperature bitcoin
 modules-center =
-modules-right = powermenu alsa
+modules-right = pulseaudio powermenu
 cursor-click = pointer
 cursor-scroll = ns-resize
 
@@ -63,6 +63,14 @@ cursor-click = pointer
 cursor-scroll = ns-resize
 enable-ipc = true
 override-redirect = true
+
+[module/bitcoin]
+type = custom/script
+exec = zsh bitcoin.sh
+tail = true
+interval = 300
+
+
 
 ;  _ ____
 ; (_)__ /_ __ ___ __
@@ -129,17 +137,18 @@ label = %time%
 ;   | .__/\_,_|_/__/\___|
 ;   |_|
 
-[module/alsa]
-type = internal/alsa
+
+[module/pulseaudio]
+type = internal/pulseaudio
 
 format-volume = <label-volume> <bar-volume>
-label-volume = volume:
+label-volume = vol:
 label-volume-foreground = ${root.foreground}
 
 format-muted-foreground = ${colors.foreground-alt}
 label-muted = sound muted
 
-bar-volume-width = 15
+bar-volume-width = 10
 bar-volume-foreground-0 = #55aa55
 bar-volume-foreground-1 = #55aa55
 bar-volume-foreground-2 = #55aa55
@@ -219,3 +228,4 @@ screenchange-reload = true
 ;compositing-foreground = source
 ;compositing-border = over
 ;pseudo-transparency = false
+
