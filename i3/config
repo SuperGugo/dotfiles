@@ -13,7 +13,7 @@ exec nm-applet
 
 exec wal -i Immagini/Wallpapers/tramonto.jpg && xrandr --output DP-0 --auto --right-of HDMI-0 --mode 1920x1080 --rate 144
 exec_always polybar --config=/home/supergugo/Documenti/polybar/config center
-exec_always picom --blur-method kernel --blur-size 100 --blur-kern 5x5box --config /home/supergugo/.config/picom/config 
+exec_always picom --config /home/supergugo/.config/picom/config 
 exec_always tint2
 
 # Screenshots
