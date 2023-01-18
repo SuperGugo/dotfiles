@@ -1,0 +1,127 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: Fira Code;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar.top {
+    background: #537979;
+    color: #537979;
+    border-bottom: 4px solid #1e475c;
+}
+
+window#waybar.bottom {
+    background: #537979;
+    color: #537979;
+    border-top: 4px solid #1e475c;
+}
+
+
+tooltip {
+    background: rgb(43, 48, 59);
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+
+tooltip label {
+  color: white;
+}
+
+#clock{
+
+    background: #A5C882;
+    margin-bottom:4px;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#custom-powermenu{
+    font-size: 14;
+    margin-bottom:4px;
+    background: #FC9F5B;
+    margin-right: 8px;
+    margin-left: 4px;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#disk{
+    margin-bottom:4px;
+    background: #A5C882;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#cpu{
+    margin-bottom:4px;
+    background: #A5C882;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#memory{
+    margin-bottom:4px;
+    background: #A5C882;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#pulseaudio{
+    margin-bottom:4px;
+    background: #A5C882;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#custom-weather{
+    margin-bottom:4px;
+    background: #A5C882;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#custom-drawer{
+    margin-bottom:4px;
+    font-size: 22;
+    background: #FC9F5B;
+    margin-left: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#tray{
+    margin-top:4px;
+    background: #FC9F5B;
+    margin-right: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#taskbar{
+    margin-top:4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#taskbar button.active{
+    background: #FC9F5B;
+}
+
+#window{
+    margin-bottom:4px;
+    color: #F7DD72;
+}

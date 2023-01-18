@@ -1,0 +1,147 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: Fira Code;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(0,0,0,0);
+    color: #5E4C5A;
+    border-radius: 25;
+}
+
+tooltip {
+    background: rgb(43, 48, 59);
+    border: 1px solid rgba(100, 114, 125, 0.5);
+}
+
+tooltip label {
+  color: white;
+}
+
+#clock{
+    background: #00ff80;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    margin-right: 6px;
+    margin-left: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25;
+}
+
+#custom-powermenu{
+    font-size: 14;
+    background: #00ff80;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    margin-right: 12px;
+    margin-left: 6px;
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25;
+}
+
+#disk{
+    background: #00ff80;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    margin-right: 6px;
+    margin-left: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25;
+}
+
+#cpu{
+    background: #00ff80;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25;
+}
+
+#memory{
+    background: #00ff80;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    margin-right: 6px;
+    margin-left: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25;
+}
+
+#pulseaudio{
+    background: #00ff80;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    margin-right: 6px;
+    margin-left: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25;
+}
+
+#custom-weather{
+    background: #00ff80;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    margin-right: 6px;
+    margin-left: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25;
+}
+
+#custom-drawer{
+    font-size: 22;
+    background: #00ff80;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    margin-right: 4px;
+    margin-left: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25;
+}
+
+#tray{
+    background: #00ff80;
+    border-radius: 25;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    margin-right: 12px;
+    margin-left: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#taskbar{
+    background: #00ff80;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    margin-right: 6px;
+    margin-left: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25;
+}
+
+#taskbar button.active{
+    background: #FFE2D1;
+    border-radius: 25;
+}
+
+#window{
+    background: #00ff80;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25;
+}

@@ -1,0 +1,125 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: Fira Code;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar.bottom {
+    background: #feeddc;
+    color: #feeddc;
+    border-top: 3px solid #E0CDBB;
+}
+
+window#waybar.top {
+    background: #feeddc;
+    color: #feeddc;
+    border-bottom: 3px solid #E0CDBB;
+}
+
+tooltip {
+    background: rgb(43, 48, 59);
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+
+tooltip label {
+  color: white;
+}
+
+#clock{
+    background: #9D695A;
+    margin-bottom: 3px;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#custom-powermenu{
+    font-size: 14;
+    background: #7F96FF;
+    margin-bottom: 3px;
+    margin-right: 8px;
+    margin-left: 4px;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#disk{
+    background: #9D695A;
+    margin-bottom: 3px;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#cpu{
+    background: #9D695A;
+    margin-bottom: 3px;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#memory{
+    background: #9D695A;
+    margin-bottom: 3px;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#pulseaudio{
+    background: #9D695A;
+    margin-bottom: 3px;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#custom-weather{
+    background: #9D695A;
+    margin-bottom: 3px;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#custom-drawer{
+    font-size: 22;
+    background: #7F96FF;
+    margin-bottom: 3px;
+    margin-left: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#tray{
+    margin-top: 3px;
+    background: #7F96FF;
+    margin-right: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#taskbar{
+    margin-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#taskbar button.active{
+    background: #7F96FF;
+}
+
+#window{
+    margin-bottom: 3px;
+    color: #9D695A;
+}
