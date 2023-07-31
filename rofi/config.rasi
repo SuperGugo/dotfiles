@@ -1,7 +1,0 @@
-configuration {
- theme: "Pop-Dark";
- columns: 2;
- sidebar-mode: true;
- display-run: "Execute";
- display-drun: "Open";
- }

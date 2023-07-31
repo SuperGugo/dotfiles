@@ -1,125 +1,68 @@
-* {
-    border: none;
-    border-radius: 0;
-    font-family: Fira Code;
-    font-size: 14px;
-    min-height: 0;
-}
 
 window#waybar.bottom {
-    background: #feeddc;
-    color: #feeddc;
-    border-top: 3px solid #E0CDBB;
+    background: rgba(155, 155, 155, 0);
+    color: #FFFFFF;
 }
 
 window#waybar.top {
-    background: #feeddc;
-    color: #feeddc;
-    border-bottom: 3px solid #E0CDBB;
+    background: rgba(50, 50, 50, 00);
+    color: #FFFFFF;
+    margin-left: 400px;
 }
 
 tooltip {
     background: rgb(43, 48, 59);
-  border: 1px solid rgba(100, 114, 125, 0.5);
 }
 
 tooltip label {
   color: white;
 }
 
+#custom-powermenu,
+#tray,
+#custom-weather,
+#pulseaudio,
+#memory,
+#cpu,
+#disk,
+#custom-powermenu,
 #clock{
-    background: #9D695A;
-    margin-bottom: 3px;
     margin-right: 4px;
     margin-left: 4px;
     padding-left: 10px;
     padding-right: 10px;
+    font-family: "Fira Code Medium", "Font Awesome 6 Free";
+    font-size: 16px;
 }
+
+#clock{
+    font-size: 20px;
+    border-radius: 12;
+    background: rgba(155, 155, 155, 0.1);       /* ?? */
+    margin-top: 4px;                            /* ?? */
+    margin-bottom: 4px;                         /* ?? */
+}
+
 
 #custom-powermenu{
-    font-size: 14;
-    background: #7F96FF;
-    margin-bottom: 3px;
+    font-size: 18;
     margin-right: 8px;
-    margin-left: 4px;
-    padding-top: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
-#disk{
-    background: #9D695A;
-    margin-bottom: 3px;
-    margin-right: 4px;
-    margin-left: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
-#cpu{
-    background: #9D695A;
-    margin-bottom: 3px;
-    margin-right: 4px;
-    margin-left: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
-#memory{
-    background: #9D695A;
-    margin-bottom: 3px;
-    margin-right: 4px;
-    margin-left: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
-#pulseaudio{
-    background: #9D695A;
-    margin-bottom: 3px;
-    margin-right: 4px;
-    margin-left: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-#custom-weather{
-    background: #9D695A;
-    margin-bottom: 3px;
-    margin-right: 4px;
-    margin-left: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-#custom-drawer{
-    font-size: 22;
-    background: #7F96FF;
-    margin-bottom: 3px;
-    margin-left: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-#tray{
-    margin-top: 3px;
-    background: #7F96FF;
-    margin-right: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-#taskbar{
-    margin-top: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
 #taskbar button.active{
-    background: #7F96FF;
+    background: rgba(155, 155, 155, 0.2);
+    border-radius: 20;
+}
+
+#taskbar button:hover{
+    background: rgba(155, 155, 155, 0.2);
+    border-radius: 20;
 }
 
 #window{
-    margin-bottom: 3px;
-    color: #9D695A;
+    color: #3E3A2F;
 }
