@@ -7,4 +7,4 @@ i use:
 * kitty
 * wofi
 
-![screenshot](./sceenshot.png)
+![screenshot](sceenshot.png)
