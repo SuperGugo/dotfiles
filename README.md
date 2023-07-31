@@ -7,4 +7,4 @@ i use:
 * kitty
 * wofi
 
-![screenshot](https://github.com/SuperGugo/dotfiles/blob/main/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/SuperGugo/dotfiles/main/screenshot.png)
