@@ -5,7 +5,7 @@
     "position": "top",
     "modules-left": ["disk", "memory", "cpu"],
     "modules-center": ["clock"],
-        "modules-right": ["pulseaudio", "custom/powermenu"],
+        "modules-right": ["pulseaudio", "network", "battery", "custom/powermenu"],
     "height": 40,
 
     "pulseaudio": {
@@ -17,6 +17,36 @@
     },
     "scroll-step": 1,
     "on-click": "pavucontrol",
+},
+
+"network": {
+  "format": "{ifname}",
+  "tooltip-format": "{ifname} \n{ipaddr}",
+
+  "format-wifi": "{signalStrength}% ",
+  "tooltip-format-wifi": "{essid} \n{ipaddr}",
+
+  "format-ethernet": "",
+  "tooltip-format-ethernet": "{ifname} \n{ipaddr}",
+
+  "format-disconnected": "!",
+  "tooltip-format-disconnected": "Disconnected",
+
+  "max-length": 50
+},
+
+"battery": {
+    "interval": 60,
+    "states": {
+        "warning": 30,
+        "critical": 15
+    },
+    "format": "{icon}",
+    "format-charging": "{icon} ",
+    "format-full": " ",
+    "format-icons": ["", "", "", "", ""],
+    "tooltip-format": "{capacity}%",
+    "max-length": 25
 },
 
     "hyprland/window": {

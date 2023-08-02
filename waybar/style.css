@@ -25,7 +25,9 @@ tooltip label {
 #memory,
 #cpu,
 #disk,
+#battery,
 #custom-powermenu,
+#network,
 #clock{
     margin-right: 4px;
     margin-left: 4px;
