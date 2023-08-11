@@ -20,13 +20,14 @@ tooltip label {
 
 #custom-powermenu,
 #tray,
-#custom-weather,
+#custom-start,
 #pulseaudio,
 #memory,
 #cpu,
 #disk,
 #battery,
 #custom-powermenu,
+#custom-media,
 #network,
 #clock{
     margin-right: 4px;
@@ -50,8 +51,6 @@ tooltip label {
     font-size: 18;
     margin-right: 8px;
 }
-
-
 
 
 

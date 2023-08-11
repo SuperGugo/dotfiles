@@ -109,20 +109,21 @@
     "position": "bottom",
     "modules-left": [],
     "modules-center": [
-      "wlr/taskbar"
+      "custom/start", "wlr/taskbar"
     ],
     "modules-right": [],
     "height": 50,
     "wlr/taskbar": {
       "format": "{icon}",
-      "icon-size": 30,
+      "icon-size": 35,
       "tooltip-format": "{title}",
-      "on-click": "fullscreen",
+      "on-click": "activate",
       "on-click-middle": "close",
-      "all-outputs": true,
-      "ignore-list": [
-        "kitty"
-      ]
-    }
+      "all-outputs": false,
+    },
+    "custom/start": {
+      "format": "",
+      "on-click": "wofi --show drun",
+    },
   }
 ]
