@@ -1,0 +1,10 @@
+prompt=Search...
+color=.config/wofi/colors
+allow_images=true
+insensitive=true
+no_actions=true
+location=bottom
+yoffset=-15
+width=600
+height=500
+single_click=true
